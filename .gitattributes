@@ -1,5 +1,6 @@
 *.jsp ident
 *.jsp filter=indent
-*.jsp filter=dater
+*.jsp export-subst
 LAST_COMMIT export-subst
-LAST_COMMIT export-subst
+test.jsp export-subst
+date*.txt filter=dater
