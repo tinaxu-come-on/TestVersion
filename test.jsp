@@ -1,4 +1,4 @@
 $Id$
 #  $Date$
 
-$Format:$
+$Format:%cd$
