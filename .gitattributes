@@ -1,0 +1,5 @@
+*.jsp ident
+*.jsp filter=indent
+*.jsp filter=dater
+
+LAST_COMMIT export-subst
