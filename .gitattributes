@@ -4,3 +4,4 @@
 LAST_COMMIT export-subst
 test.jsp export-subst
 date*.txt filter=dater
+*.c     filter=indentdate*.txt filter=dater
