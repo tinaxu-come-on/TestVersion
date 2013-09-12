@@ -1,5 +1,1 @@
-*.jsp ident
-*.jsp filter=indent
-date*.txt filter=dater
-*.c     filter=indent
 date*.txt filter=dater
