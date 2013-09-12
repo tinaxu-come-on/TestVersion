@@ -1,4 +1,4 @@
 $Id$
 #  $Date$
 #  $Date$
-Last commit date: $Format:%cd$
+Last commit date: $Format:$
