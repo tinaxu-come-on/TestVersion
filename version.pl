@@ -7,6 +7,6 @@ my $dir = dir("C:/Users/xuti/git/TestVersion");
 #print $dir. "\n";
 chdir $dir;
 my $result = `git log -1 --pretty=format:"%H" `;
-
-open(OUTFILE, ">date_test.txt");
-    print OUTFILE ($result);
+perl -p -i -e  's/$id$/$result/g'  date_test.txt
+#open(OUTFILE, ">date_test.txt");
+#   print OUTFILE ($result);
