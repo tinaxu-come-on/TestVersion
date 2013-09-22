@@ -14,7 +14,9 @@ my $gitid = `git log -1 --pretty=format:"%H" `;
 open FILE1,"esngov.jsp" ;    
 my @new=<FILE1>;
 my $result = join '', @new;
-$result =~ s/gitid/gitid$gitid/gis;
+$result =~ s/gitid:[0-9A-Za-z][0-9a-zA-Z]{39}/gitid:/gis;
+
+$result =~ s/gitid:/gitid:$gitid/gis;
 close FILE1;
  
 open FILE2,">esngov.jsp" ;  
