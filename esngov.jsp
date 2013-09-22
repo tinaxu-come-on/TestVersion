@@ -316,6 +316,6 @@ session.setAttribute("userAccout",userAccout);
 			</DIV>
 			<DIV class=clearfloat></DIV>
 </DIV>
-<div id="version">gitid</div>
+<div id="version">gitid:34c047e2a9f0927dddc3b8e45613cee1b2a95f6fND</div>
 </body>
 </html>
